@@ -1,0 +1,1 @@
+A simple web app to collab with your friends on a text editor. Create a room and get started!
