@@ -59,6 +59,10 @@ io.on("connection", (socket) => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.send("Unauthorized")
+})
+
 server.listen(4000, () => {
   console.log("Server started");
 });
